@@ -1,0 +1,12 @@
+D:\repositories\WordMatcher\Wordmatcher\SQLiteDao\obj\Debug\net6.0\SQLiteDao.csproj.AssemblyReference.cache
+D:\repositories\WordMatcher\Wordmatcher\SQLiteDao\obj\Debug\net6.0\SQLiteDao.GeneratedMSBuildEditorConfig.editorconfig
+D:\repositories\WordMatcher\Wordmatcher\SQLiteDao\obj\Debug\net6.0\SQLiteDao.AssemblyInfoInputs.cache
+D:\repositories\WordMatcher\Wordmatcher\SQLiteDao\obj\Debug\net6.0\SQLiteDao.AssemblyInfo.cs
+D:\repositories\WordMatcher\Wordmatcher\SQLiteDao\obj\Debug\net6.0\SQLiteDao.csproj.CoreCompileInputs.cache
+D:\repositories\WordMatcher\Wordmatcher\SQLiteDao\bin\Debug\net6.0\SQLiteDao.deps.json
+D:\repositories\WordMatcher\Wordmatcher\SQLiteDao\bin\Debug\net6.0\SQLiteDao.dll
+D:\repositories\WordMatcher\Wordmatcher\SQLiteDao\bin\Debug\net6.0\SQLiteDao.pdb
+D:\repositories\WordMatcher\Wordmatcher\SQLiteDao\obj\Debug\net6.0\SQLiteDao.dll
+D:\repositories\WordMatcher\Wordmatcher\SQLiteDao\obj\Debug\net6.0\refint\SQLiteDao.dll
+D:\repositories\WordMatcher\Wordmatcher\SQLiteDao\obj\Debug\net6.0\SQLiteDao.pdb
+D:\repositories\WordMatcher\Wordmatcher\SQLiteDao\obj\Debug\net6.0\ref\SQLiteDao.dll
