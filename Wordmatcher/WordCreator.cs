@@ -50,7 +50,7 @@ namespace Wordmatcher
 
                 if (hunId != null && espId != null)
                 {
-                    _dbContext.Translates.Add(new Translate { Word1_id = (int)espId, Word2_id= (int)hunId });
+                    _dbContext.Translates.Add(new Translate { Word_1_id = (int)espId, Word_2_id= (int)hunId });
                 }
                 _dbContext.SaveChanges();
 

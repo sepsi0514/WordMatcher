@@ -21,8 +21,8 @@ namespace Wordmatcher
             var missMatch = -1;
 
             var words = (from t1 in _dbContext.Words
-                         join t2 in _dbContext.Translates on t1.Id equals t2.Word1_id
-                         join t3 in _dbContext.Words on t2.Word2_id equals t3.Id
+                         join t2 in _dbContext.Translates on t1.Id equals t2.Word_1_id
+                         join t3 in _dbContext.Words on t2.Word_2_id equals t3.Id
                          where t1.Category_id == 3
                          select new WordMatcherResult
                          {

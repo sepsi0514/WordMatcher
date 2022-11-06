@@ -9,9 +9,7 @@ namespace SQLiteDao
 
         public DictionaryContext()
         {
-            var folder = Environment.SpecialFolder.LocalApplicationData;
-            var path = Environment.GetFolderPath(folder);
-            DbPath = System.IO.Path.Join(path, "Dictionary.db");
+            DbPath = "C:\\Repos\\WordMatcher\\Databases\\Dictionary.db";
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
