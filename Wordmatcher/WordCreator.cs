@@ -24,14 +24,16 @@ namespace Wordmatcher
                 Console.Write("Magyarul: ");
                 var hun = Console.ReadLine();
 
-                foreach (var item in wordTypes)
-                {
-                    Console.WriteLine($"{item.Id}: {item.Type}");
-                }
+                //foreach (var item in wordTypes)
+                //{
+                //    Console.WriteLine($"{item.Id}: {item.Type}");
+                //}
 
-                Console.Write("Típus: ");
+                //Console.Write("Típus: ");
 
-                Int32.TryParse(Console.ReadLine(), out int typeInt);
+                int typeInt = 2;
+
+                //Int32.TryParse(Console.ReadLine(), out typeInt);
 
                 if (CheckDuplication(esp))
                 {
@@ -40,8 +42,8 @@ namespace Wordmatcher
                     continue;
                 }
 
-                _dbContext.Words.Add(new Words { Category_id = 5, Description = null, Language_id = 1, Word = esp, Type_id = typeInt });
-                _dbContext.Words.Add(new Words { Category_id = 5, Description = null, Language_id = 2, Word = hun, Type_id = typeInt });
+                _dbContext.Words.Add(new Words { Category_id = 14, Description = null, Language_id = 1, Word = esp, Type_id = typeInt });
+                _dbContext.Words.Add(new Words { Category_id = 14, Description = null, Language_id = 2, Word = hun, Type_id = typeInt });
 
                 _dbContext.SaveChanges();
 
