@@ -18,5 +18,6 @@ namespace SQLiteDao
         public DbSet<Words> Words { get; set; }
         public DbSet<Translate> Translates { get; set; }
         public DbSet<WordType> WordType { get; set; }
+        public DbSet<VerbConjugation> VerbConjugation { get; set; }
     }
 }

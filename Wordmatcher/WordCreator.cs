@@ -22,18 +22,8 @@ namespace Wordmatcher
                 var esp = Console.ReadLine();
 
                 Console.Write("Magyarul: ");
-                var hun = Console.ReadLine();
-
-                //foreach (var item in wordTypes)
-                //{
-                //    Console.WriteLine($"{item.Id}: {item.Type}");
-                //}
-
-                //Console.Write("Típus: ");
-
-                int typeInt = 2;
-
-                //Int32.TryParse(Console.ReadLine(), out typeInt);
+                var hun = Console.ReadLine();               
+                int typeInt = 2;                
 
                 if (CheckDuplication(esp))
                 {
